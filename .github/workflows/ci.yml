@@ -1,0 +1,30 @@
+﻿name: CI Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Lint & Test
+        run: echo "Running lint and tests..."
+
+  build-docker:
+    runs-on: ubuntu-latest
+    needs: lint-and-test
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker API Image
+        run: docker build -t doc2pdf-api:latest ./api
+
+      - name: Build Docker Worker Image
+        run: docker build -t doc2pdf-worker:latest ./worker

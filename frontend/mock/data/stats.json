@@ -1,0 +1,12 @@
+{
+  "jobs_by_status": {
+    "queued": 2,
+    "running": 1,
+    "succeeded": 17,
+    "failed": 3
+  },
+  "oldest_queued_age_seconds": 840,
+  "running_with_expired_lease": 1,
+  "pending_outbox_events": 1,
+  "oldest_pending_outbox_age_seconds": 12.5
+}

@@ -1,0 +1,840 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000002001",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "txt",
+    "original_filename": "ghi-chu-01.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "ab9c61c7e27217a9736ed17988137f299d984edfc6c4f60f4d850fa026358689",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "c84a09757ebaad3dbdc07d455da0b624",
+    "created_at": "2026-11-10T22:20:00.000Z",
+    "updated_at": "2026-11-10T22:22:00.000Z",
+    "started_at": "2026-11-10T22:21:00.000Z",
+    "finished_at": "2026-11-10T22:22:00.000Z",
+    "source": {
+      "size_bytes": 1200,
+      "content_type": "text/plain"
+    },
+    "result": {
+      "size_bytes": 2048,
+      "page_count": 4,
+      "checksum": "02e89ecd1d7e8901d22f8bb7a32ff61473ac12d089010a7a7bf32b369a38d6c3",
+      "expires_at": "2026-11-11T07:00:00.000Z",
+      "expired": true
+    },
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002002",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "txt",
+    "original_filename": "ghi-chu-02.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 2,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "546b087917b5c4b715f8e4540976cc0d71ac091ac69e22a30aa28477f729dbd6",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "0e3cc730d9c08262b256b2ba943e34c5",
+    "created_at": "2026-11-10T22:40:00.000Z",
+    "updated_at": "2026-11-10T22:42:00.000Z",
+    "started_at": "2026-11-10T22:41:00.000Z",
+    "finished_at": "2026-11-10T22:42:00.000Z",
+    "source": {
+      "size_bytes": 5400,
+      "content_type": "text/plain"
+    },
+    "result": {
+      "size_bytes": 3240,
+      "page_count": 4,
+      "checksum": "74db806d4160046f39bbe5b1595251981ed9f17ad6c57174bceb5b632c9c9ed8",
+      "expires_at": "2026-11-11T22:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002003",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "txt",
+    "original_filename": "ghi-chu-03.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "4991a8721e1d3566b09047a14f9648ec86743bb189a362c8357ca5d1d0d15ce0",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "d2be038545ec6e30cb7e7d9088b3d68f",
+    "created_at": "2026-11-10T23:00:00.000Z",
+    "updated_at": "2026-11-10T23:02:00.000Z",
+    "started_at": "2026-11-10T23:01:00.000Z",
+    "finished_at": "2026-11-10T23:02:00.000Z",
+    "source": {
+      "size_bytes": 20480,
+      "content_type": "text/plain"
+    },
+    "result": {
+      "size_bytes": 12288,
+      "page_count": 6,
+      "checksum": "05e95786a9da28cf023ee17d133efc43e76e72ebb74f7f103952fbaacf986e05",
+      "expires_at": "2026-11-11T23:00:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002004",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "txt",
+    "original_filename": "ghi-chu-04.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "0143a931e50f3858009c745235a80c664f05801c2dcc82a36b0e8b38c459c1a2",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "fe53a3874e0ce698a53d5936aa4a1282",
+    "created_at": "2026-11-10T23:20:00.000Z",
+    "updated_at": "2026-11-10T23:22:00.000Z",
+    "started_at": "2026-11-10T23:21:00.000Z",
+    "finished_at": "2026-11-10T23:22:00.000Z",
+    "source": {
+      "size_bytes": 310,
+      "content_type": "text/plain"
+    },
+    "result": {
+      "size_bytes": 2048,
+      "page_count": 3,
+      "checksum": "fd34a99a87d8001a5a3360b67ac49bd8eb48e8878ab7e5edbaa83cc1347ff763",
+      "expires_at": "2026-11-11T23:20:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002005",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "txt",
+    "original_filename": "ghi-chu-05.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "675efe7af3012c723e9199081ca7db924aa0c42198f22a084768ce89b65d4839",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "076daa07749ea3741cc9405d2f7d0c7f",
+    "created_at": "2026-11-10T23:40:00.000Z",
+    "updated_at": "2026-11-10T23:42:00.000Z",
+    "started_at": "2026-11-10T23:41:00.000Z",
+    "finished_at": "2026-11-10T23:42:00.000Z",
+    "source": {
+      "size_bytes": 98304,
+      "content_type": "text/plain"
+    },
+    "result": {
+      "size_bytes": 58982,
+      "page_count": 4,
+      "checksum": "e9a5df0b10559ce45f286a5dce2aff1f80aa34026596bd0412f6af43dd4867ef",
+      "expires_at": "2026-11-11T23:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002006",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "md",
+    "original_filename": "bai-viet-01.md",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "ac0df2e0c1e22ac61bfc556b99151713e25bf4571d8c9bbc02d23f4593b798ba",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "d49bb2edd59e2d7ef1e48420802a0042",
+    "created_at": "2026-11-11T00:00:00.000Z",
+    "updated_at": "2026-11-11T00:02:00.000Z",
+    "started_at": "2026-11-11T00:01:00.000Z",
+    "finished_at": "2026-11-11T00:02:00.000Z",
+    "source": {
+      "size_bytes": 2300,
+      "content_type": "text/markdown"
+    },
+    "result": {
+      "size_bytes": 2048,
+      "page_count": 5,
+      "checksum": "a92e10aefe675afe0165abba3a645f36340b90a2fff7c2a6aa39f7fb8fa52e72",
+      "expires_at": "2026-11-12T00:00:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002007",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "md",
+    "original_filename": "bai-viet-02.md",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "f48687f6387dfa897a5b8fcacd9bf0f6a2a29761054c1c34abe05c6be28684e6",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "8946c481f1bfd9ad161fcf0cae6f6a19",
+    "created_at": "2026-11-11T00:20:00.000Z",
+    "updated_at": "2026-11-11T00:22:00.000Z",
+    "started_at": "2026-11-11T00:21:00.000Z",
+    "finished_at": "2026-11-11T00:22:00.000Z",
+    "source": {
+      "size_bytes": 8100,
+      "content_type": "text/markdown"
+    },
+    "result": {
+      "size_bytes": 4860,
+      "page_count": 2,
+      "checksum": "362694f7db2df2103d03677e44c89f954cf3be222231c700c37a83647370c41d",
+      "expires_at": "2026-11-12T00:20:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002008",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "md",
+    "original_filename": "bai-viet-03.md",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "5d119e51dc1c1af10456cb649493acf2d43f8e6cd141799b2394e65c3ea4a429",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "a824587dea15ab8ee2b5e21a9e71cb9d",
+    "created_at": "2026-11-11T00:40:00.000Z",
+    "updated_at": "2026-11-11T00:42:00.000Z",
+    "started_at": "2026-11-11T00:41:00.000Z",
+    "finished_at": "2026-11-11T00:42:00.000Z",
+    "source": {
+      "size_bytes": 15500,
+      "content_type": "text/markdown"
+    },
+    "result": {
+      "size_bytes": 9300,
+      "page_count": 3,
+      "checksum": "dd82fc24209e267f66c34496f2b6972191dc792f6bd69ab32c68559c156cee39",
+      "expires_at": "2026-11-12T00:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002009",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "md",
+    "original_filename": "readme-01.md",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "20ea109a7dd66b21c183606ee4afaa7f935734f75bf466bef2d21f36dde50266",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "d90635bd56c9fac102a44d7e48e8c832",
+    "created_at": "2026-11-11T01:00:00.000Z",
+    "updated_at": "2026-11-11T01:02:00.000Z",
+    "started_at": "2026-11-11T01:01:00.000Z",
+    "finished_at": "2026-11-11T01:02:00.000Z",
+    "source": {
+      "size_bytes": 760,
+      "content_type": "text/markdown"
+    },
+    "result": {
+      "size_bytes": 2048,
+      "page_count": 5,
+      "checksum": "18d407e25f366ee8711ffcb4ac7ca0df0cdf21a8a672fb0619e2d0dd92d2389c",
+      "expires_at": "2026-11-12T01:00:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002010",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "md",
+    "original_filename": "readme-02.md",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "437116747694edb80b72ceacda2a288911962e07ac099ab535123462de9d39b1",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "2129add06601adce2158adf968703520",
+    "created_at": "2026-11-11T01:20:00.000Z",
+    "updated_at": "2026-11-11T01:22:00.000Z",
+    "started_at": "2026-11-11T01:21:00.000Z",
+    "finished_at": "2026-11-11T01:22:00.000Z",
+    "source": {
+      "size_bytes": 42000,
+      "content_type": "text/markdown"
+    },
+    "result": {
+      "size_bytes": 25200,
+      "page_count": 1,
+      "checksum": "7aa11e012e67a5d9de2c059eab3f23ec3c767c932b6e985ac02020caa5b7e417",
+      "expires_at": "2026-11-12T01:20:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002011",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "png",
+    "original_filename": "anh-01.png",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "2ea5c4d7e892967909cc83439b2b738bed9b1f119d1dd5bb728b68bdcea5e7d6",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "d393f58085bde4fd0361d9ade384f286",
+    "created_at": "2026-11-11T01:40:00.000Z",
+    "updated_at": "2026-11-11T01:42:00.000Z",
+    "started_at": "2026-11-11T01:41:00.000Z",
+    "finished_at": "2026-11-11T01:42:00.000Z",
+    "source": {
+      "size_bytes": 120000,
+      "content_type": "image/png"
+    },
+    "result": {
+      "size_bytes": 72000,
+      "page_count": 7,
+      "checksum": "d7330158442f25ccbac2c502d9380e5fcf8597f0b63cb96836f6d02c4f6d5358",
+      "expires_at": "2026-11-12T01:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002012",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "png",
+    "original_filename": "anh-02.png",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "84b331d9abf01dfed860e8daf356fa725b7275099dc57e167ecb29cede0c7398",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "4c63792986a10e792bfc5dda01d11a08",
+    "created_at": "2026-11-11T02:00:00.000Z",
+    "updated_at": "2026-11-11T02:02:00.000Z",
+    "started_at": "2026-11-11T02:01:00.000Z",
+    "finished_at": "2026-11-11T02:02:00.000Z",
+    "source": {
+      "size_bytes": 340000,
+      "content_type": "image/png"
+    },
+    "result": {
+      "size_bytes": 204000,
+      "page_count": 4,
+      "checksum": "4f6083f15c19f96802debe59dc817f26a2cf871395e2f9256d9be37f4828bc24",
+      "expires_at": "2026-11-12T02:00:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002013",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "png",
+    "original_filename": "anh-03.png",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "1dc553cde635b642e1b35a96d5b7d57fb71804d37862b317958eefb2b8d0bc23",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "e2502d171625f528aaaefbeebe374074",
+    "created_at": "2026-11-11T02:20:00.000Z",
+    "updated_at": "2026-11-11T02:22:00.000Z",
+    "started_at": "2026-11-11T02:21:00.000Z",
+    "finished_at": "2026-11-11T02:22:00.000Z",
+    "source": {
+      "size_bytes": 910000,
+      "content_type": "image/png"
+    },
+    "result": {
+      "size_bytes": 546000,
+      "page_count": 1,
+      "checksum": "eaf2ddbd7cb2d76df860712f390e748d060a32882ff7fb1a5c28c19b2dbfe1a7",
+      "expires_at": "2026-11-12T02:20:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002014",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "png",
+    "original_filename": "anh-04.png",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "b519923cd5fb5b47eb1134c59bba99fd6ff7d0b458ae979460b4655e1de81aa2",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "9ae18464dcae797c986d661777fe60dd",
+    "created_at": "2026-11-11T02:40:00.000Z",
+    "updated_at": "2026-11-11T02:42:00.000Z",
+    "started_at": "2026-11-11T02:41:00.000Z",
+    "finished_at": "2026-11-11T02:42:00.000Z",
+    "source": {
+      "size_bytes": 2400000,
+      "content_type": "image/png"
+    },
+    "result": {
+      "size_bytes": 1440000,
+      "page_count": 2,
+      "checksum": "c7360904e2632f255a04f3044e4d30b27d31b6ed88a32971f3fb8683eebb3139",
+      "expires_at": "2026-11-12T02:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002015",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "jpg",
+    "original_filename": "anh-05.jpg",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "b0523cca66eaa4482ee1413ac5b5d6b8a0b10289c9c9c3e1eed527026721b2ba",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "2125dbdbc6d8608db655bf36d423f8ae",
+    "created_at": "2026-11-11T03:00:00.000Z",
+    "updated_at": "2026-11-11T03:02:00.000Z",
+    "started_at": "2026-11-11T03:01:00.000Z",
+    "finished_at": "2026-11-11T03:02:00.000Z",
+    "source": {
+      "size_bytes": 85000,
+      "content_type": "image/jpeg"
+    },
+    "result": {
+      "size_bytes": 51000,
+      "page_count": 7,
+      "checksum": "e064bab5f63c2c849b12c89d650178b28eaf0d1bc166a7373e067ffb811ca457",
+      "expires_at": "2026-11-12T03:00:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002016",
+    "owner_id": "bob",
+    "status": "succeeded",
+    "source_format": "jpg",
+    "original_filename": "anh-06.jpg",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "d52a19ca08a978cd67174e8efa97cc25bd36c48e33c1edc234d62f5d4d6eaace",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "64d8349c05a0ad085050a0378ec28ad6",
+    "created_at": "2026-11-11T03:20:00.000Z",
+    "updated_at": "2026-11-11T03:22:00.000Z",
+    "started_at": "2026-11-11T03:21:00.000Z",
+    "finished_at": "2026-11-11T03:22:00.000Z",
+    "source": {
+      "size_bytes": 460000,
+      "content_type": "image/jpeg"
+    },
+    "result": {
+      "size_bytes": 276000,
+      "page_count": 3,
+      "checksum": "e561c4c5410c9f8f145cc4f9cc1b696955221b1c3fcbe8849096aef68608542d",
+      "expires_at": "2026-11-12T03:20:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002017",
+    "owner_id": "alice",
+    "status": "succeeded",
+    "source_format": "jpg",
+    "original_filename": "anh-07.jpg",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "384b6338ae533dd611ca8af60cc138942db94fa637a69120723a3281c929c77c",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "5758e77aa52abde5c4ad5d5d6d73e304",
+    "created_at": "2026-11-11T03:40:00.000Z",
+    "updated_at": "2026-11-11T03:42:00.000Z",
+    "started_at": "2026-11-11T03:41:00.000Z",
+    "finished_at": "2026-11-11T03:42:00.000Z",
+    "source": {
+      "size_bytes": 1800000,
+      "content_type": "image/jpeg"
+    },
+    "result": {
+      "size_bytes": 1080000,
+      "page_count": 7,
+      "checksum": "4eca2ff86802b3eb53d3051f19634f09dfdca1372ab578d1b06e36e7d2f4573c",
+      "expires_at": "2026-11-12T03:40:00.000Z",
+      "expired": false
+    },
+    "download_available": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002018",
+    "owner_id": "bob",
+    "status": "running",
+    "source_format": "jpg",
+    "original_filename": "anh-08.jpg",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 1,
+    "max_attempts": 3,
+    "worker_id": "worker-1",
+    "lease_expires_at": "2026-11-11T08:01:00.000Z",
+    "source_checksum": "e895914ba8668e3ca6b2f81fb0ca04601d7a8fc0938aa8b7ef0e23eb9208082f",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": null,
+    "error_message": null,
+    "request_id": "8ffacf546b026f82d25ebbd76eaefe95",
+    "created_at": "2026-11-11T04:00:00.000Z",
+    "updated_at": "2026-11-11T04:02:00.000Z",
+    "started_at": "2026-11-11T04:01:00.000Z",
+    "finished_at": null,
+    "source": {
+      "size_bytes": 5200000,
+      "content_type": "image/jpeg"
+    },
+    "result": null,
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002019",
+    "owner_id": "alice",
+    "status": "queued",
+    "source_format": "txt",
+    "original_filename": "bien-gioi-10mb.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 0,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "3a9d295b3f32f4f1199477ff27f9adbe62af242bc4269be17b232d2562848538",
+    "converter_version": null,
+    "error_code": null,
+    "error_message": null,
+    "request_id": "0e4176e5e89316c1a79226b346795306",
+    "created_at": "2026-11-11T04:20:00.000Z",
+    "updated_at": "2026-11-11T04:22:00.000Z",
+    "started_at": null,
+    "finished_at": null,
+    "source": {
+      "size_bytes": 10485760,
+      "content_type": "text/plain"
+    },
+    "result": null,
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002020",
+    "owner_id": "bob",
+    "status": "queued",
+    "source_format": "txt",
+    "original_filename": "tieng-viet-utf8.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 0,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "34f11bff414247085c027b57c3341744f2451e40fb86dd22c4b70ae16f5d623c",
+    "converter_version": null,
+    "error_code": null,
+    "error_message": null,
+    "request_id": "51524fbf3c5d68394a371bec024b96a4",
+    "created_at": "2026-11-11T04:40:00.000Z",
+    "updated_at": "2026-11-11T04:42:00.000Z",
+    "started_at": null,
+    "finished_at": null,
+    "source": {
+      "size_bytes": 3300,
+      "content_type": "text/plain"
+    },
+    "result": null,
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002021",
+    "owner_id": "alice",
+    "status": "failed",
+    "source_format": "png",
+    "original_filename": "hong.png",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 3,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "4498e3f7cddb27e371d0fd6dc5269905a9101125959e6372257b44bab214592c",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": "INVALID_FILE",
+    "error_message": "Không đọc được ảnh PNG",
+    "request_id": "dd33261bd5eceb4faa7b626df470fcd5",
+    "created_at": "2026-11-11T05:00:00.000Z",
+    "updated_at": "2026-11-11T05:02:00.000Z",
+    "started_at": "2026-11-11T05:01:00.000Z",
+    "finished_at": "2026-11-11T05:02:00.000Z",
+    "source": {
+      "size_bytes": 4096,
+      "content_type": "image/png"
+    },
+    "result": null,
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002022",
+    "owner_id": "bob",
+    "status": "failed",
+    "source_format": "jpg",
+    "original_filename": "doi-duoi.jpg",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 3,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "4f9459731219405bb5e9ad0bd064e2a60cd7463e05b440547b8f586e8d038ab6",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": "INVALID_FILE",
+    "error_message": "Nội dung không phải ảnh JPEG",
+    "request_id": "acacb6ca9e2b9debd44c9e9e5913defc",
+    "created_at": "2026-11-11T05:20:00.000Z",
+    "updated_at": "2026-11-11T05:22:00.000Z",
+    "started_at": "2026-11-11T05:21:00.000Z",
+    "finished_at": "2026-11-11T05:22:00.000Z",
+    "source": {
+      "size_bytes": 2048,
+      "content_type": "image/jpeg"
+    },
+    "result": null,
+    "download_available": false
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000002023",
+    "owner_id": "alice",
+    "status": "failed",
+    "source_format": "txt",
+    "original_filename": "cham-timeout.txt",
+    "options": {
+      "page_size": "A4",
+      "orientation": "portrait",
+      "font_size": 11,
+      "margin_mm": 20
+    },
+    "attempts": 3,
+    "max_attempts": 3,
+    "worker_id": null,
+    "lease_expires_at": null,
+    "source_checksum": "b6b7f2434b7c93bfd77504280f3543c6cbf8475d3fb54c5ac77cd5cbab1d1443",
+    "converter_version": "txt2pdf-1.0.0",
+    "error_code": "CONVERSION_TIMEOUT",
+    "error_message": "Chuyển đổi quá thời gian cho phép",
+    "request_id": "44f932385637ee73e95b77cfe47af51b",
+    "created_at": "2026-11-11T05:40:00.000Z",
+    "updated_at": "2026-11-11T05:42:00.000Z",
+    "started_at": "2026-11-11T05:41:00.000Z",
+    "finished_at": "2026-11-11T05:42:00.000Z",
+    "source": {
+      "size_bytes": 3000,
+      "content_type": "text/plain"
+    },
+    "result": null,
+    "download_available": false
+  }
+]

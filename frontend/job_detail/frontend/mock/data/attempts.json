@@ -1,0 +1,382 @@
+{
+  "00000000-0000-4000-8000-000000002001": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-10T22:21:00.000Z",
+      "lease_expires_at": "2026-11-10T22:22:00.000Z",
+      "finished_at": "2026-11-10T22:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 837
+    }
+  ],
+  "00000000-0000-4000-8000-000000002002": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "lease_expired",
+      "started_at": "2026-11-10T22:41:00.000Z",
+      "lease_expires_at": "2026-11-10T22:42:00.000Z",
+      "finished_at": "2026-11-10T22:42:00.000Z",
+      "error_code": "LEASE_EXPIRED",
+      "error_message": "Worker không gia hạn lease đúng hạn",
+      "converter_version": null,
+      "duration_ms": 874
+    },
+    {
+      "attempt_no": 2,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-10T22:41:00.000Z",
+      "lease_expires_at": "2026-11-10T22:42:00.000Z",
+      "finished_at": "2026-11-10T22:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 874
+    }
+  ],
+  "00000000-0000-4000-8000-000000002003": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-10T23:01:00.000Z",
+      "lease_expires_at": "2026-11-10T23:02:00.000Z",
+      "finished_at": "2026-11-10T23:02:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 911
+    }
+  ],
+  "00000000-0000-4000-8000-000000002004": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-10T23:21:00.000Z",
+      "lease_expires_at": "2026-11-10T23:22:00.000Z",
+      "finished_at": "2026-11-10T23:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 948
+    }
+  ],
+  "00000000-0000-4000-8000-000000002005": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-10T23:41:00.000Z",
+      "lease_expires_at": "2026-11-10T23:42:00.000Z",
+      "finished_at": "2026-11-10T23:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 985
+    }
+  ],
+  "00000000-0000-4000-8000-000000002006": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T00:01:00.000Z",
+      "lease_expires_at": "2026-11-11T00:02:00.000Z",
+      "finished_at": "2026-11-11T00:02:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1022
+    }
+  ],
+  "00000000-0000-4000-8000-000000002007": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T00:21:00.000Z",
+      "lease_expires_at": "2026-11-11T00:22:00.000Z",
+      "finished_at": "2026-11-11T00:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1059
+    }
+  ],
+  "00000000-0000-4000-8000-000000002008": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T00:41:00.000Z",
+      "lease_expires_at": "2026-11-11T00:42:00.000Z",
+      "finished_at": "2026-11-11T00:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1096
+    }
+  ],
+  "00000000-0000-4000-8000-000000002009": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T01:01:00.000Z",
+      "lease_expires_at": "2026-11-11T01:02:00.000Z",
+      "finished_at": "2026-11-11T01:02:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1133
+    }
+  ],
+  "00000000-0000-4000-8000-000000002010": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T01:21:00.000Z",
+      "lease_expires_at": "2026-11-11T01:22:00.000Z",
+      "finished_at": "2026-11-11T01:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1170
+    }
+  ],
+  "00000000-0000-4000-8000-000000002011": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T01:41:00.000Z",
+      "lease_expires_at": "2026-11-11T01:42:00.000Z",
+      "finished_at": "2026-11-11T01:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1207
+    }
+  ],
+  "00000000-0000-4000-8000-000000002012": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T02:01:00.000Z",
+      "lease_expires_at": "2026-11-11T02:02:00.000Z",
+      "finished_at": "2026-11-11T02:02:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1244
+    }
+  ],
+  "00000000-0000-4000-8000-000000002013": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T02:21:00.000Z",
+      "lease_expires_at": "2026-11-11T02:22:00.000Z",
+      "finished_at": "2026-11-11T02:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1281
+    }
+  ],
+  "00000000-0000-4000-8000-000000002014": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T02:41:00.000Z",
+      "lease_expires_at": "2026-11-11T02:42:00.000Z",
+      "finished_at": "2026-11-11T02:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1318
+    }
+  ],
+  "00000000-0000-4000-8000-000000002015": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T03:01:00.000Z",
+      "lease_expires_at": "2026-11-11T03:02:00.000Z",
+      "finished_at": "2026-11-11T03:02:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1355
+    }
+  ],
+  "00000000-0000-4000-8000-000000002016": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T03:21:00.000Z",
+      "lease_expires_at": "2026-11-11T03:22:00.000Z",
+      "finished_at": "2026-11-11T03:22:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1392
+    }
+  ],
+  "00000000-0000-4000-8000-000000002017": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "succeeded",
+      "started_at": "2026-11-11T03:41:00.000Z",
+      "lease_expires_at": "2026-11-11T03:42:00.000Z",
+      "finished_at": "2026-11-11T03:42:00.000Z",
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1429
+    }
+  ],
+  "00000000-0000-4000-8000-000000002018": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "running",
+      "started_at": "2026-11-11T04:01:00.000Z",
+      "lease_expires_at": "2026-11-11T04:02:00.000Z",
+      "finished_at": null,
+      "error_code": null,
+      "error_message": null,
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": null
+    }
+  ],
+  "00000000-0000-4000-8000-000000002019": [],
+  "00000000-0000-4000-8000-000000002020": [],
+  "00000000-0000-4000-8000-000000002021": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:01:00.000Z",
+      "lease_expires_at": "2026-11-11T05:02:00.000Z",
+      "finished_at": "2026-11-11T05:02:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Không đọc được ảnh PNG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1577
+    },
+    {
+      "attempt_no": 2,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:01:00.000Z",
+      "lease_expires_at": "2026-11-11T05:02:00.000Z",
+      "finished_at": "2026-11-11T05:02:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Không đọc được ảnh PNG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1577
+    },
+    {
+      "attempt_no": 3,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:01:00.000Z",
+      "lease_expires_at": "2026-11-11T05:02:00.000Z",
+      "finished_at": "2026-11-11T05:02:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Không đọc được ảnh PNG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1577
+    }
+  ],
+  "00000000-0000-4000-8000-000000002022": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:21:00.000Z",
+      "lease_expires_at": "2026-11-11T05:22:00.000Z",
+      "finished_at": "2026-11-11T05:22:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Nội dung không phải ảnh JPEG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1614
+    },
+    {
+      "attempt_no": 2,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:21:00.000Z",
+      "lease_expires_at": "2026-11-11T05:22:00.000Z",
+      "finished_at": "2026-11-11T05:22:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Nội dung không phải ảnh JPEG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1614
+    },
+    {
+      "attempt_no": 3,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:21:00.000Z",
+      "lease_expires_at": "2026-11-11T05:22:00.000Z",
+      "finished_at": "2026-11-11T05:22:00.000Z",
+      "error_code": "INVALID_FILE",
+      "error_message": "Nội dung không phải ảnh JPEG",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1614
+    }
+  ],
+  "00000000-0000-4000-8000-000000002023": [
+    {
+      "attempt_no": 1,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:41:00.000Z",
+      "lease_expires_at": "2026-11-11T05:42:00.000Z",
+      "finished_at": "2026-11-11T05:42:00.000Z",
+      "error_code": "CONVERSION_TIMEOUT",
+      "error_message": "Chuyển đổi quá thời gian cho phép",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1651
+    },
+    {
+      "attempt_no": 2,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:41:00.000Z",
+      "lease_expires_at": "2026-11-11T05:42:00.000Z",
+      "finished_at": "2026-11-11T05:42:00.000Z",
+      "error_code": "CONVERSION_TIMEOUT",
+      "error_message": "Chuyển đổi quá thời gian cho phép",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1651
+    },
+    {
+      "attempt_no": 3,
+      "worker_id": "worker-1",
+      "outcome": "failed",
+      "started_at": "2026-11-11T05:41:00.000Z",
+      "lease_expires_at": "2026-11-11T05:42:00.000Z",
+      "finished_at": "2026-11-11T05:42:00.000Z",
+      "error_code": "CONVERSION_TIMEOUT",
+      "error_message": "Chuyển đổi quá thời gian cho phép",
+      "converter_version": "txt2pdf-1.0.0",
+      "duration_ms": 1651
+    }
+  ]
+}

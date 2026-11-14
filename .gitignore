@@ -222,3 +222,4 @@ __marimo__/
 .env
 node_modules/
 *.pdf.tmp
+data/invalid/toolarge.txt

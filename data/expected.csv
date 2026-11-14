@@ -1,0 +1,28 @@
+filename,type,expected_status,expected_reason,expected_min_pages
+valid/txt_short.txt,txt,succeeded,,1
+valid/txt_vietnamese.txt,txt,succeeded,,1
+valid/txt_long_multipage.txt,txt,succeeded,,3
+valid/txt_special_chars.txt,txt,succeeded,,1
+valid/txt_crlf_windows.txt,txt,succeeded,,1
+valid/txt_lf_linux.txt,txt,succeeded,,1
+valid/txt_one_long_line.txt,txt,succeeded,,2
+valid/md_headings.md,md,succeeded,,1
+valid/md_lists.md,md,succeeded,,1
+valid/md_table.md,md,succeeded,,1
+valid/md_code_block.md,md,succeeded,,1
+valid/md_links.md,md,succeeded,,1
+valid/md_vietnamese.md,md,succeeded,,1
+valid/png_small.png,png,succeeded,,1
+valid/png_large.png,png,succeeded,,1
+valid/png_transparent.png,png,succeeded,,1
+valid/png_portrait.png,png,succeeded,,1
+valid/jpg_normal.jpg,jpg,succeeded,,1
+valid/jpg_large.jpg,jpg,succeeded,,1
+valid/jpg_portrait.jpg,jpg,succeeded,,1
+invalid/empty.txt,txt,rejected,file rong (0 byte),0
+invalid/fake_image.png,png,rejected,sai magic bytes (khong phai PNG),0
+invalid/exe_renamed.png,png,rejected,tep thuc thi doi duoi .png,0
+invalid/corrupt.jpg,jpg,failed,"anh bi hong, khong doc duoc",0
+invalid/unsupported.docx,docx,rejected,dinh dang khong ho tro,0
+invalid/toolarge.txt,txt,rejected,vuot gioi han 10 MB,0
+invalid/slow_case.txt,txt,failed,timeout (demo chuyen doi cham),0

@@ -1,0 +1,49 @@
+# Docker Compose tự động gộp file này với docker-compose.yml (không cần sửa file gốc):
+#   docker compose up -d --build
+# Thêm dịch vụ api và relay (worker do thư mục worker/ phụ trách, chưa bật ở đây).
+
+services:
+  api:
+    build: ./api
+    container_name: doc2pdf-api
+    env_file: .env
+    environment:
+      # Trong mạng Docker dùng tên dịch vụ thay cho localhost
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      S3_ENDPOINT: http://s3:8333
+      S3_PUBLIC_ENDPOINT: http://localhost:${S3_PORT}   # host trình duyệt dùng để tải PDF qua URL ký
+    depends_on:
+      postgres: { condition: service_healthy }
+      s3: { condition: service_started }
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  relay:
+    build: ./relay
+    container_name: doc2pdf-relay
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      RABBITMQ_URL: amqp://${RABBITMQ_USER}:${RABBITMQ_PASSWORD}@rabbitmq:5672/
+    depends_on:
+      api: { condition: service_healthy }   # api chạy migration trước
+      rabbitmq: { condition: service_healthy }
+    restart: unless-stopped
+
+  # Test tự động của API (DB riêng "<POSTGRES_DB>_test", không đụng dữ liệu dev):
+  #   docker compose --profile test run --rm api-test
+  api-test:
+    profiles: ["test"]
+    build:
+      context: ./api
+      target: test
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+    depends_on:
+      postgres: { condition: service_healthy }
